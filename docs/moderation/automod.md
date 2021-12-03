@@ -5,7 +5,7 @@
 
 ### General Settings
 
-???+ tldr "General Settings"
+!!!+ tldr "General Settings"
 
 	| Name | Example | Usage |
 	| :--- | :--- | :--- |
@@ -18,7 +18,7 @@
 	| **automod [unwhitelist\|unwl] &lt;roles/channels&gt;** | !automod unwl \#bilderberg | Undoes what the above command does. |
 	| **deletefiles**  | !deletefiles |  Toggles between deleting files and not. "Safe" formats include png, jpg, jpeg, webm, mp4, gif, bmp, pdf, txt, tif, svg, webp, mp3, flac, wav |
 	
-???+ example "Punishments"
+!!!+ example "Punishments"
 
     The punishments available are:
 
@@ -37,7 +37,7 @@
 	
 ### Warn Threshold
 	
-???+ tldr "Warn Threshold"
+!!!+ tldr "Warn Threshold"
 	Warns do not automatically expire. Managing warns is detailed on the [Moderation](https://docs.carl.gg/moderation/moderation/) page. The warn threshold determines how Carl-bot reacts when a user receives a new warning and their new total number of warnings exceeds a set limit. Unless a user's warnings are reset or reduced manually, this punishment will trigger each time a user receives a new warning while their total number of warnings is above your server's set limit. Set to 0 to turn off.
 
 	| Name | Example | Usage |
